@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Форма</title>
+    
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo"><a href="site.html"><span class="pink">Сайт</span> <span class="greem"><i>визитка</i></span></a></div>
+            <ul>
+        <li><a href="uslugi.html">услуги</a></li>
+        <li><a href="onas.html">о нас</a></li>
+        <li><a href="client.html">клиенты</a></li>
+        <li><a href="contacti.html">контакты</a></li>
+        
+            </ul>
+        </header>
+<main>
+  <form id="contact-form">
+                
+    <div class="form_item">
+        <label for="topic">Тема</label><br>
+        <select name="topic" id="topic">
+            <option value="1">ЗАказать услугу</option>
+            <option value="2">Оставить отзыв</option>
+            <option value="3">Предложить сотрудничество</option>
+            <option value="4">Другое</option>
+        </select>
+    </div>
+
+    <div class="form_item">
+         <label for="name">Имя</label><br>
+        <input placeholder="Имя" id="name" type="text" required>
+    </div>
+
+    <div class="form_item">
+        <label for="name">E-mail</label><br>
+        <input placeholder="e-mail" id="name" type="email" required>
+    </div>
+    <div class="form_item">
+        <label for="name">Дата</label><br>
+        <input placeholder="Дата" id="name" type="date" required>
+    </div>
+    <div class="form_item">
+        <label for="name">Телефон</label><br>
+        <input placeholder="Телефон" id="name" type="tel" required>
+    </div>
+
+
+    <div class="form-item">
+        <label for="name">Текст сообщения</label><br>
+        <textarea placeholder="Ваше сообщение"></textarea required><br>
+        <input type="submit">
+    </div>
+</form>
+</main>
+
+
+    </div>
+    <footer class="for-footer">
+        <a href="form.html"><p class="footer_block">Написать нам &#9650;</p></a>
+       <p class="footer_block"> &copy; Новая компания</p>
+       <div class="footer_icons">
+           <a  href="#" target="_blank"><img class="footer_img" src="img/ok.png"alt=""></a>
+            <img class="footer_img" src="img/vk.png"alt="">
+            <img class="footer_img" src="img/mailru.png" alt=""> 
+        </div>
+
+    </footer>
+
+</body>
+</html>
